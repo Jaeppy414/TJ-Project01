@@ -23,7 +23,6 @@ public class NormalAccount extends Account{
 	}
 	@Override
 	public String toString() {
-		return super.toString() + "기본이율 : " + rate + "%";
+		return super.toString() + " 기본이율 : " + rate + "%";
 	}
-	
 }

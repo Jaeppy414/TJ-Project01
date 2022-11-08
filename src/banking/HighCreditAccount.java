@@ -5,7 +5,8 @@ public class HighCreditAccount extends Account implements ICustomDefine{
 	int rate;
 	String grade;
 	
-	public HighCreditAccount(String AccountID, String Name, int Money, int rate, String grade) {
+	public HighCreditAccount(
+			String AccountID, String Name, int Money, int rate, String grade) {
 		super(AccountID, Name, Money);
 		this.rate = rate;
 		this.grade = grade;
@@ -34,7 +35,6 @@ public class HighCreditAccount extends Account implements ICustomDefine{
 	}
 	@Override
 	public String toString() {
-		return super.toString() + "기본이율 : " + rate + "%  신용등급 : " + grade;
+		return super.toString() + " 기본이율 : " + rate + "%  신용등급 : " + grade;
 	}
-
 }

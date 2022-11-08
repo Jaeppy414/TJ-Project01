@@ -49,6 +49,4 @@ public abstract class Account implements Serializable {
 	public String toString() {
 		return "계좌번호 : " + AccountID + " 이름 : " + Name + " 잔고 : "+ Money;
 	}
-	
 }
-

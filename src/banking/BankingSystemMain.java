@@ -19,7 +19,6 @@ public class BankingSystemMain {
 		System.out.println("[6] 프로그램 종료 ");
 		System.out.print("메뉴선택>>> ");	
 	}
-
 	public static void main(String[] args) {
 		
 		AccountManager accountmanager = new AccountManager();
@@ -70,7 +69,7 @@ public class BankingSystemMain {
 				scanner.nextLine();
 			}
 			catch(MenuSelectException mse){
-				System.out.println("<<1~5 사이의 숫자를 입력하세요>>");
+				System.out.println("<<1~6 사이의 숫자를 입력하세요>>");
 			}
 		}//while 끝
 	}//main 끝
