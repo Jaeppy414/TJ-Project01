@@ -27,7 +27,6 @@ public abstract class Account implements Serializable {
 		System.out.print(",   잔고: "+ Money);
 		System.out.println();
 	}	
-	
 	public void deposit(int deposit) {
 		//오버라이딩하기 위한 메서드
 	}

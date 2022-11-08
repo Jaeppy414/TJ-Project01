@@ -20,6 +20,8 @@ public class BankingSystemMain {
 		System.out.print("메뉴선택>>> ");	
 	}
 	public static void main(String[] args) {
+		ㅉ
+		System.out.println("1차 프로젝트(학원)");
 		
 		AccountManager accountmanager = new AccountManager();
 		Scanner scanner = new Scanner(System.in);

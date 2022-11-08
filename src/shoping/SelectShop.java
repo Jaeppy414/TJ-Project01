@@ -19,7 +19,7 @@ public class SelectShop extends IConnectImpl{
 				String sql = "SELECT g_idx, goods_name,"
 						+ " trim(to_char(goods_price,'999,999,999')), "
 						+ " to_char(regidate, 'yyyy-mm-dd hh24:mi'), p_code FROM sh_goods "
-						+ " WHERE goods_name like '%" + scan +"%'";
+						+ " WHERE goods_name like '%"+ scan +"%'";
 				
 				rs = stmt.executeQuery(sql);
 				
